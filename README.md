@@ -5,10 +5,6 @@ The goal of this project is to answer this question
 And the answer is YES! With RLHF, evaluation shows that ChatGPT prefers the aligned GPT-2 outputs for 96% of times over the vanilla GPT-2 outputs, and 88% times over the supervised fine-tuning baseline. Please see the technical [report](./report.pdf) for more details.
 
 
-
-# Poster
-![alt text](Poster.png)
-
 # Directory
 ```bash
 src
