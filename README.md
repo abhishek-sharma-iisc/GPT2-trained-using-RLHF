@@ -1,16 +1,10 @@
 # minChatGPT
-
-This is a custom project from [Stanford CS224N Winter 2023](https://web.stanford.edu/class/cs224n/) class. The goal of this project is to answer this question
+The goal of this project is to answer this question
 > Will alignment from human feedback also help small language models such as GPT-2?
 
 And the answer is YES! With RLHF, evaluation shows that ChatGPT prefers the aligned GPT-2 outputs for 96% of times over the vanilla GPT-2 outputs, and 88% times over the supervised fine-tuning baseline. Please see the technical [report](./report.pdf) for more details.
 
-Also, you can test minChatGPT in [Colab Notebook](https://colab.research.google.com/drive/1LR1sbWTyaNAmTZ1g1M2tpmU_pFw1lyEX?usp=sharing)
 
-**Disclaimer**: 
-1. This model has not been tested or evalauted against its safety. It may generate harmful or toxic content.
-2. The demo is only meant to show how to improve small models with RLHF. The performance is not comparable with any conversation systems that are backed by large language models.
-3. This is not an error free codebase! In fact there may be bugs here and there. Please make an issue if you have any questions.
 
 # Poster
 ![alt text](Poster.png)
